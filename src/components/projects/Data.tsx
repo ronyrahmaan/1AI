@@ -117,115 +117,40 @@ const PROJECT_CONTENT = [
     ],
   },
   {
-    title: '3d Pong Game',
+    title: 'Upcoming Research Project 1',
     description:
-      "Transcendance is the final project of my 42 cursus. It's a 3D pong game with multiplayer capabilities, user authentication, and real-time gameplay. We had to do everything from scratch, so it was pretty challenging and we learned a lot.",
-    techStack: ['Django', 'Python', 'JavaScript', 'Websockets', 'PostgreSQL', 'Docker', 'Nginx', 'Web3', 'Solidity'],
-    date: '2023',
+      'Currently in development - Advanced AI system for real-time multilingual sentiment analysis with focus on social media applications and content moderation. Stay tuned for updates!',
+    techStack: ['Python', 'PyTorch', 'Transformers', 'NLP', 'Deep Learning'],
+    date: '2025',
     links: [
       {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/Transcendance',
+        name: 'Coming Soon',
+        url: 'https://github.com/ronyrahmaan',
       },
     ],
     images: [
       {
-        src: '/trans1.png',
-        alt: 'Transcendance landing page',
-      },
-      {
-        src: '/trans2.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans3.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans4.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans5.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans6.png',
-        alt: 'Transcendance game',
-      }
-
-    ],
-  },
-  {
-    title: 'Minishell',
-    description:
-      "Minishell is a project that aims to create a simple shell. It's a great introduction to process creation and management in C, offering fundamental Unix command-line functionality. This was a very challenging project, but I learned a lot from it.",
-    techStack: ['C', 'Unix', 'Bash'],
-    date: '2023',
-    links: [
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/Michelle-42',
-      },
-    ],
-    images: [
-      {
-        src: '/minishell1.png',
-        alt: 'Minishell landing page',
+        src: '/placeholder-project-1.png',
+        alt: 'Upcoming project preview',
       }
     ],
   },
   {
-    title: 'YouBot',
+    title: 'Upcoming Research Project 2',
     description:
-      'YouBot is a Python Bot that Scrapes Videos from Pexels, adds a random song from a Songs Folder, then auto-uploads the videos to your YouTube Channel for continuous content generation.',
-    techStack: ['Python', 'YouTube API', 'Pexels API'],
-    date: '2022',
+      'In progress - Novel approach to LiDAR data processing for autonomous vehicle navigation with enhanced safety protocols. Research collaboration with industry partners.',
+    techStack: ['Python', 'Computer Vision', 'LiDAR', 'Machine Learning', 'Safety Systems'],
+    date: '2025',
     links: [
       {
-        name: "YouTube Video",
-        url: "https://youtu.be/vp1v5mBG7rA "
-      },
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/YouBot',
-      }
-    ],
-    images: [
-      {
-        src: '/youbot1.jpg',
-        alt: 'Youbot landing page',
-      },
-      {
-        src: '/youbot2.png',
-        alt: 'Youbot chatbot',
-      },
-    ],
-  },
-  {
-    title: 'Old Portfolio',
-    description:
-      'My previous traditional portfolio built with vanilla HTML, CSS and JS with GSAP animations for a smooth and interactive user experience.',
-    techStack: ['HTML', 'CSS', 'JavaScript', 'GSAP'],
-    date: '2022',
-    links: [
-      {
-        name: 'Website',
-        url: 'https://toukoum.github.io/oldPortfolio/',
-      },
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/portfolio',
+        name: 'Research Preview',
+        url: 'https://github.com/ronyrahmaan',
       },
     ],
     images: [
       {
-        src: '/oldport1.png',
-        alt: 'Old Portfolio landing page',
-      },
-      {
-        src: '/oldport2.png',
-        alt: 'Old Portfolio projects',
+        src: '/placeholder-project-2.png',
+        alt: 'LiDAR research preview',
       }
     ],
   },
