@@ -13,19 +13,19 @@ const ChatLanding: React.FC<ChatLandingProps> = ({ submitQuery }) => {
   const suggestedQuestions = [
     {
       icon: <MessageSquare className="h-4 w-4" />,
-      text: 'Who are you?',
+      text: 'Who is Rahman? Tell me about his background.',
     },
     {
       icon: <Code className="h-4 w-4" />,
-      text: 'What projects have you worked on?',
+      text: 'What research projects has Rahman worked on?',
     },
     {
       icon: <Award className="h-4 w-4" />,
-      text: 'What are your skills?',
+      text: 'What are Rahman\'s technical skills and expertise?',
     },
     {
       icon: <Mail className="h-4 w-4" />,
-      text: 'How can I contact you?',
+      text: 'How can I contact Rahman for collaboration?',
     },
   ];
 
