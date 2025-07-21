@@ -44,146 +44,75 @@ const PROJECT_CONTENT = [
     ],
   },
   {
-    title: 'Rrate',
+    title: 'PolyHope - Hope Speech & Sarcasm Detection',
     description:
-      "Rrate is a fun website to allow user to compare his salary with the richest people in the world. Try it now it's online!",
-    techStack: ['Html', 'Css', 'Javascript'],
+      'A dual-task neural framework leveraging Transformers and BiLSTM for multilingual classification of hope speech and sarcasm detection. Built for social media content moderation and sentiment analytics use cases, the system integrates multi-head attention and contextual embedding fusion for enhanced accuracy in understanding nuanced human language patterns.',
+    techStack: [
+      'Python',
+      'PyTorch',
+      'Transformers',
+      'BiLSTM',
+      'BERT',
+      'Multi-head Attention',
+      'NLP',
+      'Sentiment Analysis',
+      'Deep Learning'
+    ],
     date: '2024',
     links: [
       {
-        name: 'website',
-        url: 'https://rrate.app',
+        name: 'GitHub Repository',
+        url: 'https://github.com/ronyrahmaan',
       },
       {
-        name: 'github',
-        url: 'https://github.com/toukoum/Rrate',
-      },
-    ],
-    images: [
-      {
-        src: '/rrate1.png',
-        alt: 'Rrate landing page',
-      },
-      {
-        src: '/rrate2.png',
-        alt: 'Rrate comparison page',
-      },
-      {
-        src: '/rrate3.png',
-        alt: 'Rrate comparison page',
-      },
-    ],
-  },
-  {
-    title: 'Defai',
-    description:
-      "We Win ETHOXford hackathon by building DEFAI. DEFAI stands for Decentralized Finance Artificial Intelligence. It's an AI-powered chat interface that simplifies on-chain operations on the Avalanche blockchain by allowing users to interact using natural language. This makes complex DeFi operations accessible even for those with limited technical expertise.",
-    techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'shadcn-ui',
-      'Vercel AI SDK',
-      'TypeScript',
-    ],
-    date: '2025',
-    links: [
-      {
-        name: 'website',
-        url: 'https://dorahacks.io/buidl/22605',
-      },
-      {
-        name: 'github',
-        url: 'https://github.com/toukoum/DEFAI',
-      },
-      {
-        name: 'LinkedIn',
-        url: 'https://www.linkedin.com/feed/update/urn:li:activity:7299337190151483392/',
-      },
-      {
-        name: 'Youtube Video',
-        url: 'https://www.youtube.com/watch?v=N9O7los4-ng&t=34s&ab_channel=Toukoum',
+        name: 'Research Paper',
+        url: 'https://github.com/ronyrahmaan',
       }
     ],
     images: [
       {
-        src: '/defai1.png',
-        alt: 'Landing Page of Defai',
+        src: '/polyhope-1.png',
+        alt: 'PolyHope model architecture',
       },
       {
-        src: '/defai2.png',
-        alt: 'Confirmation popup of Defai',
-      },
-      {
-        src: '/defai3.png',
-        alt: 'Chatbot of Defai',
-      },
-      {
-        src: '/defai4.jpeg',
-        alt: 'Winner team',
+        src: '/polyhope-2.png',
+        alt: 'Sentiment analysis results',
       },
     ],
   },
   {
-    title: 'Fitgear',
+    title: 'AI vs Human Text Detection Framework',
     description:
-      'Won the Gotta Go Hack IA by building Fitgear, a virtual voice seller accessible by QR code to improve the ratio between customers and sellers. Created an AI pipeline with API calls and a RAG system for natural language interactions.',
-    techStack: ['Next.js', 'TailwindCSS', 'OpenAI API', 'Langchain'],
-    date: '2024',
-    links: [
-      {
-        name: 'Linkedin',
-        url: 'https://www.linkedin.com/posts/raphael-giraud-60939519a_hackathon-innovation-sporttech-activity-7210399263774674946-qSXq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC6vwikBVSEkS7XWktWS7y6GR3GHwAlKslc',
-      },
-    ],
-    images: [
-      {
-        src: '/fitgear2.png',
-        alt: 'Fitgear chatbot',
-      },
-      {
-        src: '/fitgear1.png',
-        alt: 'Fitgear landing page',
-      },
-    ],
-  },
-  {
-    title: 'Datai',
-    description:
-      "DATAI is an AI-powered agent that lets non-technical users query a database using natural language without writing SQL. Built using Next.js, TailwindCSS, shadcn-ui, and Anthropic's Claude API, this project focuses on simplicity, speed, and user-friendly design.",
+      'Designed a sophisticated classifier using entropy, perplexity, and DetectGPT-based techniques to distinguish between AI-generated and human-written text. The system was tested against ChatGPT, Claude, and other LLM outputs using adversarial samples and deployed as a live Streamlit application for academic and journalistic integrity assessment.',
     techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'shadcn-ui',
-      'Claude API',
-      'TypeScript',
+      'Python',
+      'Transformers',
+      'DetectGPT',
+      'Streamlit',
+      'NLP',
+      'Statistical Analysis',
+      'Machine Learning',
+      'Text Classification'
     ],
     date: '2024',
     links: [
       {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/datai',
+        name: 'Live Demo',
+        url: 'https://github.com/ronyrahmaan',
       },
       {
-        name: 'Youtube Video Demo',
-        url: 'https://youtu.be/iE0RXjdbQsw',
+        name: 'GitHub Repository',
+        url: 'https://github.com/ronyrahmaan',
       }
     ],
     images: [
       {
-        src: '/datai1.png',
-        alt: 'Datai landing page',
+        src: '/ai-detection-1.png',
+        alt: 'AI text detection interface',
       },
       {
-        src: '/datai2.png',
-        alt: 'Datai chatbot',
-      },
-      {
-        src: '/datai3.png',
-        alt: 'Datai chatbot',
-      },
-      {
-        src: '/datai4.png',
-        alt: 'Datai chatbot',
+        src: '/ai-detection-2.png',
+        alt: 'Detection accuracy results',
       }
     ],
   },
