@@ -7,15 +7,14 @@ import React from 'react';
 export function Presentation() {
   // Personal information
   const profile = {
-    name: 'Raphael Giraud',
-    age: '21 years old',
-    location: 'Paris, France',
-    // Add a newline character after the emoji
+    name: 'Md A Rahman',
+    age: '25 years old',
+    location: 'Lubbock, Texas, USA',
     description:
-      "Hey 👋\nI'm Raph also known as Toukoum. I'm a developer specializing in AI at 42 Paris. I'm working at LightOn AI in Paris. I'm passionate about AI, tech, Entrepreneurship and SaaS tech.",
-    src: '/profil-raph.png',
+      "Hey 👋\nI'm Rahman, a passionate AI Researcher and Graduate Research Assistant at Texas Tech University, specializing in applied machine learning, natural language processing, and real-time sensor data (LiDAR) systems. My work lies at the intersection of AI and societal impact, with hands-on experience building scalable, research-driven applications.\n\nI enjoy blending theory with practical execution—whether it's decoding LiDAR streams or detecting nuances in human language through AI. My vision is to collaborate with forward-thinking companies solving global challenges using intelligent systems and ethical AI practices.",
+    src: '/profile-rahman.png',
     fallbackSrc:
-      'https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3',
+      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3',
   };
 
   // Animation variants for text elements
@@ -103,7 +102,7 @@ export function Presentation() {
             transition={{ delay: 0.6, duration: 0.5 }}
             className="mt-4 flex flex-wrap gap-2"
           >
-            {['AI', 'Developer', '42 Paris', 'Sport', 'SaaS Builder'].map(
+            {['AI Researcher', 'Machine Learning', 'NLP', 'LiDAR Systems', 'Texas Tech University'].map(
               (tag) => (
                 <span
                   key={tag}
