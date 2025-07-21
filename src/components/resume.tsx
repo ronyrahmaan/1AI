@@ -8,13 +8,13 @@ import Image from 'next/image';
 export function Resume() {
   // Resume details
   const resumeDetails = {
-    title: "Raphael's Resume",
-    description: 'Full Stack Developer • AI Specialist',
+    title: "Rahman's Resume",
+    description: 'AI Researcher • Graduate Research Assistant • ML Engineer',
     fileType: 'PDF',
-    lastUpdated: 'March 2025',
-    fileSize: '0.5 MB',
-    previewImageSrc: '/resume_giraud_preview.png',
-    downloadUrl: '/resume_giraud.pdf',
+    lastUpdated: 'January 2025',
+    fileSize: '0.8 MB',
+    previewImageSrc: '/resume_rahman_preview.png',
+    downloadUrl: '/resume_rahman.pdf',
   };
 
   const handleDownload = () => {
@@ -66,6 +66,22 @@ export function Resume() {
           </div>
         </div>
       </motion.div>
+
+      {/* Additional Information */}
+      <div className="mt-6 grid gap-4 md:grid-cols-2">
+        <div className="rounded-lg bg-neutral-50 dark:bg-neutral-900 p-4">
+          <h4 className="font-medium text-sm mb-2">Current Position</h4>
+          <p className="text-xs text-muted-foreground">
+            Graduate Research Assistant, Texas Tech University
+          </p>
+        </div>
+        <div className="rounded-lg bg-neutral-50 dark:bg-neutral-900 p-4">
+          <h4 className="font-medium text-sm mb-2">Research Focus</h4>
+          <p className="text-xs text-muted-foreground">
+            AI/ML, NLP, LiDAR Systems, Computer Vision
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
