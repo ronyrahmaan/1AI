@@ -20,10 +20,10 @@ import { useEffect, useRef, useState } from 'react';
 /* ---------- quick-question data ---------- */
 const questions = {
   Me: 'Who are you? I want to know more about you.',
-  Projects: 'What are your projects? What are you working on right now?',
-  Skills: 'What are your skills? Give me a list of your soft and hard skills.',
-  Fun: 'What’s the craziest thing you’ve ever done? What are your hobbies?',
-  Contact: 'How can I contact you?',
+  Projects: 'What are your projects? What research are you working on?',
+  Skills: 'What are your skills? Give me a list of your technical and research skills.',
+  Fun: 'Tell me about your achievements and background. What are your hobbies?',
+  Contact: 'How can I contact you? Are you open to collaboration?',
 } as const;
 
 const questionConfig = [
@@ -62,13 +62,13 @@ export default function Home() {
   };
 
   useEffect(() => {
-    // Précharger les assets du chat en arrière-plan
+    // Preload assets in background
     const img = new window.Image();
     img.src = '/landing-memojis.png';
 
-    // Précharger les vidéos aussi
+    // Preload videos too
     const linkWebm = document.createElement('link');
-    linkWebm.rel = 'preload'; // Note: prefetch au lieu de preload
+    linkWebm.rel = 'preload';
     linkWebm.as = 'video';
     linkWebm.href = '/final_memojis.webm';
     document.head.appendChild(linkWebm);
@@ -88,24 +88,23 @@ export default function Home() {
           className="hidden bg-gradient-to-b from-neutral-500/10 to-neutral-500/0 bg-clip-text text-[10rem] leading-none font-black text-transparent select-none sm:block lg:text-[16rem]"
           style={{ marginBottom: '-2.5rem' }}
         >
-          Toukoum
+          Rahman
         </div>
       </div>
 
       {/* GitHub button */}
       <div className="absolute top-6 right-8 z-20">
         <GithubButton
-          //targetStars={68}
           animationDuration={1.5}
           label="Star"
           size={'sm'}
-          repoUrl="https://github.com/toukoum/portfolio"
+          repoUrl="https://github.com/ronyrahmaan"
         />
       </div>
 
       <div className="absolute top-6 left-6 z-20">
         <button
-          onClick={() => goToChat('Are you looking for an internship?')}
+          onClick={() => goToChat('Are you looking for research collaboration or internship opportunities?')}
           className="relative flex cursor-pointer items-center gap-2 rounded-full border bg-white/30 px-4 py-1.5 text-sm font-medium text-black shadow-md backdrop-blur-lg transition hover:bg-white/60 dark:border-white dark:text-white dark:hover:bg-neutral-800"
         >
           {/* Green pulse dot */}
@@ -113,7 +112,7 @@ export default function Home() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
             <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
           </span>
-          Looking for a talent?
+          Open to Collaborate
         </button>
       </div>
 
@@ -129,10 +128,10 @@ export default function Home() {
         </div>
 
         <h2 className="text-secondary-foreground mt-1 text-xl font-semibold md:text-2xl">
-          Hey, I'm Raphael 👋
+          Hey, I'm Rahman 👋
         </h2>
         <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">
-          AI portfolio
+          AI Research Portfolio
         </h1>
       </motion.div>
 
@@ -140,7 +139,7 @@ export default function Home() {
       <div className="relative z-10 h-52 w-48 overflow-hidden sm:h-72 sm:w-72">
         <Image
           src="/landing-memojis.png"
-          alt="Hero memoji"
+          alt="AI Research Portfolio Hero"
           width={2000}
           height={2000}
           priority
@@ -169,7 +168,7 @@ export default function Home() {
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Ask me anything…"
+              placeholder="Ask me about my AI research…"
               className="w-full border-none bg-transparent text-base text-neutral-800 placeholder:text-neutral-500 focus:outline-none dark:text-neutral-200 dark:placeholder:text-neutral-500"
             />
             <button

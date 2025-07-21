@@ -13,40 +13,42 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Toukoum Portfolio",
-  description: "Interactive portfolio with an AI-powered Memoji that answers questions about me, my skills, and my experience",
+  title: "Md A Rahman - AI Researcher Portfolio",
+  description: "Interactive AI portfolio of Md A Rahman, Graduate Research Assistant and AI Researcher at Texas Tech University. Specializing in machine learning, NLP, and LiDAR systems.",
   keywords: [
-    "Toukoum", 
+    "Md A Rahman", 
+    "AI Researcher", 
+    "Machine Learning", 
+    "Texas Tech University", 
+    "NLP", 
+    "LiDAR", 
     "Portfolio", 
-    "Developer", 
     "AI", 
     "Interactive", 
-    "Memoji", 
-    "Web Development",
-    "Full Stack",
-    "Next.js",
-    "React"
+    "Graduate Research Assistant",
+    "Data Science",
+    "Computer Vision"
   ],
   authors: [
     {
-      name: "Toukoum",
-      url: "https://toukoum.fr",
+      name: "Md A Rahman",
+      url: "https://github.com/ronyrahmaan",
     },
   ],
-  creator: "Toukoum",
+  creator: "Md A Rahman",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://toukoum.fr",
-    title: "Toukoum Portfolio",
-    description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    siteName: "Toukoum Portfolio",
+    url: "https://github.com/ronyrahmaan",
+    title: "Md A Rahman - AI Researcher Portfolio",
+    description: "Interactive AI portfolio showcasing research in machine learning, NLP, and sensor data systems",
+    siteName: "Md A Rahman Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Toukoum Portfolio",
-    description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    creator: "@toukoum",
+    title: "Md A Rahman - AI Researcher Portfolio",
+    description: "AI Researcher and Graduate Research Assistant at Texas Tech University",
+    creator: "@ronstagrram",
   },
   icons: {
     icon: [
