@@ -38,7 +38,6 @@ export async function POST(req: Request) {
       getResume,
       getContact,
       getSkills,
-      getSports,
       getCrazy,
       getInternship,
     };
