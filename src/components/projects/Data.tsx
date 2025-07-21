@@ -7,73 +7,39 @@ import { url } from 'inspector';
 // Enhanced project content array with all projects
 const PROJECT_CONTENT = [
   {
-    title: 'Synto',
+    title: 'LiDAR Infrastructure Safety - TxDOT Project',
     description:
-      'Synto is an AI-powered interface that transforms complex blockchain interactions into simple, natural language commands. Whether you want to send tokens, stake assets, swap coins, or even create NFTs or liquidity pools, just tell Synto what to do — no manual wallet interactions, no technical jargon. One of my biggest projects yet',
+      'Developed a robust pipeline for Texas Department of Transportation (TxDOT) to process Velodyne LiDAR sensor data in real time for infrastructure safety evaluation. The system segments PCAP files into fixed-time sequences and converts data to CSV format for analysis in VeloView & ParaView, ensuring lossless capture with multi-process parallelism for scalable deployment.',
     techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'Web3.js',
-      'shadcn-ui',
-      'TypeScript',
-      'Phantom Wallet',
-      'OpenAI API',
-      'Vercel AI SDK',
-      'Solana Agent kit',
-      'Neon',
-      'Prisma'
+      'Python',
+      'LiDAR Processing',
+      'PCAP Analysis',
+      'VeloView',
+      'ParaView',
+      'Real-time Data Processing',
+      'Multiprocessing',
+      'Computer Vision',
+      'Sensor Data Analytics'
     ],
-    date: '2025',
+    date: '2024-2025',
     links: [
       {
-        name: 'website',
-        url: 'https://synto.fun',
+        name: 'GitHub Repository',
+        url: 'https://github.com/ronyrahmaan',
       },
       {
-        name: 'Launch Video',
-        url: 'https://www.youtube.com/watch?v=4QUE2KgKDUw',
-      },
-      {
-        name: 'X',
-        url: 'https://x.com/chainSynto',
-      },
-      {
-        name: 'Technical Video',
-        url: 'https://www.youtube.com/watch?v=1CjBLKPUwtA&feature=youtu.be',
-      },
-      {
-        name: 'Pitch Deck',
-        url: 'https://drive.google.com/file/d/1B3m44mEgv81rJHfjNfTKi147yX4raQed/view?usp=sharing',
-      },
-      {
-        name: 'Usage tutorial',
-        url: 'https://www.youtube.com/watch?v=PRu1cfvT2bA',
+        name: 'Research Documentation',
+        url: 'https://github.com/ronyrahmaan',
       }
     ],
     images: [
       {
-        src: '/synto1.png',
-        alt: 'Synto landing page',
+        src: '/lidar-project-1.png',
+        alt: 'LiDAR data processing pipeline',
       },
       {
-        src: '/synto2.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto3.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto4.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto5.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto6.png',
-        alt: 'Synto chat interface',
+        src: '/lidar-project-2.png',
+        alt: 'Real-time sensor data visualization',
       },
     ],
   },
